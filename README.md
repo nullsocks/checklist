@@ -32,14 +32,17 @@ sh install.sh --local
 
 | | |
 |---|---|
-| top-left chevron | every list: open one, or pin it to the front |
+| top-left chevron / `Ctrl+C` | every list: ↑ ↓ Enter to open, pin to keep first, pencil to rename or delete |
 | list name | click to open; click the open one to rename it |
 | `…` | more lists than fit; opens the same menu |
-| `+` / pencil / gear | new list / delete mode (× on each list) / settings |
-| tick box | done / not done |
-| click an entry | the whole entry as a floating card |
-| right-click an entry, or `e` | edit it in place (empty removes it) |
-| eye (bottom right) | hide or show ticked entries |
-| `Ctrl+←/→`, `Del`, `Esc`, `Ctrl+Q` | switch list, remove entry, close a panel, quit |
+| `+` / gear / `Ctrl+S` | new list / settings (wrap, growing input, show ticked, save file, keys) |
+| add box | always ready: type + Enter; Shift+Enter or a leading `!` adds as priority |
+| `!` (bottom right) | the next item you add is priority |
+| tick box | done / not done (priority items have a red box and sort first) |
+| click an entry, or Enter | its card: `!` priority, `m` move to another list, click text or `e` to edit |
+| right-click an entry | edit it in place (empty removes it) |
+| `Tab` / `Ctrl+I` | into the items: ↑ ↓, Space tick, `!`, `e`, `Del` |
+| `Esc` | back out; focus returns where you came from |
+| `Ctrl+←/→`, `Ctrl+Q` | previous / next list, quit |
 
 Deleted lists are kept in `checklist.deleted.md` next to your lists, just in case.
