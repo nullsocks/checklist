@@ -1,4 +1,4 @@
-# track-tui
+# checklist
 
 A tiny click-to-tick checklist for the terminal, built with [Textual](https://textual.textualize.io/).
 Several lists, pinning, word wrap, hide-ticked, in-place editing, and everything
@@ -7,12 +7,12 @@ saved to one plain Markdown file that you (or an agent) can edit by hand too.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/nullsocks/track-tui/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nullsocks/checklist/main/install.sh | sh
 ```
 
 Then run `checklist` in any terminal. Run the same line again to update.
 
-- App: `~/.local/share/track-tui/checklist.py`
+- App: `~/.local/share/checklist/checklist.py`
 - Command: `~/.local/bin/checklist`
 - Your lists: `~/agent_workspace/checklist.md` by default (change it in ⚙ settings)
 - Settings: `~/.config/liquid-checklist/settings.json`
